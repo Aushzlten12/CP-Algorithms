@@ -57,3 +57,4 @@ std::vector<int> permute(std::vector<int> sequence,
   }
   return sequence;
 }
+// Fast application of a set of geometric operations
