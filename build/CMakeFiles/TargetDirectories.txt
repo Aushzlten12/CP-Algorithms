@@ -1,0 +1,5 @@
+/home/aushalten12/Documents/CP-algorithms/build/CMakeFiles/main_project.dir
+/home/aushalten12/Documents/CP-algorithms/build/CMakeFiles/tests.dir
+/home/aushalten12/Documents/CP-algorithms/build/CMakeFiles/test.dir
+/home/aushalten12/Documents/CP-algorithms/build/CMakeFiles/edit_cache.dir
+/home/aushalten12/Documents/CP-algorithms/build/CMakeFiles/rebuild_cache.dir

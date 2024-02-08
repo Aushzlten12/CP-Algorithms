@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/aushalten12/Documents/CP-algorithms/build",
+  "command": "/usr/bin/c++   -O3 -DNDEBUG -o CMakeFiles/main_project.dir/src/main.cpp.o -c /home/aushalten12/Documents/CP-algorithms/src/main.cpp",
+  "file": "/home/aushalten12/Documents/CP-algorithms/src/main.cpp",
+  "output": "CMakeFiles/main_project.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/aushalten12/Documents/CP-algorithms/build",
+  "command": "/usr/bin/c++   -O3 -DNDEBUG -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/tests.dir/tests/test_BinaryExp.cpp.o -c /home/aushalten12/Documents/CP-algorithms/tests/test_BinaryExp.cpp",
+  "file": "/home/aushalten12/Documents/CP-algorithms/tests/test_BinaryExp.cpp",
+  "output": "CMakeFiles/tests.dir/tests/test_BinaryExp.cpp.o"
+}
+]
