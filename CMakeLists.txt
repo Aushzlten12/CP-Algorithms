@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 project(CP_Algorithms)
 
 
-set(TEST_FILES tests/test_BinaryExp.cpp)
+set(TEST_FILES tests/test_main.cpp)
 
 add_executable(tests ${TEST_FILES})
 

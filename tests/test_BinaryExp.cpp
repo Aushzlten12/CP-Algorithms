@@ -20,7 +20,7 @@ TEST(BinaryExpModule, BasicTest) {
   EXPECT_EQ(binpowModule(3, 13, 15), 3);
 }
 
-int main(int argc, char **argv) {
+int mainBE(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
 }
