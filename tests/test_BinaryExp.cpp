@@ -1,4 +1,4 @@
-#include "../src/BinaryExp.cpp"
+#include "../src/Algebra/BinaryExponentiation/BinaryExp.cpp"
 #include <gtest/gtest.h>
 
 TEST(BinaryExpTest, BasicTest) {

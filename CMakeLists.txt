@@ -2,10 +2,8 @@ cmake_minimum_required(VERSION 3.22)
 project(CP_Algorithms)
 
 
-set(SOURCE_FILES src/main.cpp)
 set(TEST_FILES tests/test_BinaryExp.cpp)
 
-add_executable(main_project ${SOURCE_FILES})
 add_executable(tests ${TEST_FILES})
 
 find_package(GTest REQUIRED)
