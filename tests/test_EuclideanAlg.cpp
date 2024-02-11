@@ -1,5 +1,7 @@
 #include "../src/Algebra/EuclideanAlgorithm/EuclideanAlg.cpp"
 #include <gtest/gtest.h>
+#include <iostream>
+#include <ostream>
 
 TEST(EuclideanAlgorithmTest, BasicTest) {
   EXPECT_EQ(gcd(12, 2), 2);
@@ -33,6 +35,15 @@ TEST(EuclideanAlgorithmGCDBinary, BasicTest) {
   EXPECT_EQ(gcdBinary(12345, 6789), 3);
 
   EXPECT_EQ(gcdBinary(3, 5), 1);
+}
+
+TEST(ExtendEuclideanAlgorithm, BasicTest) {
+  int x, y;
+
+  int result1 = Egcd(4, 6, x, y);
+  EXPECT_EQ(result1, 2);
+  std::cout << x << std::endl;
+  std::cout << y << std::endl;
 }
 
 int mainEA(int argc, char *argv[]) {
