@@ -1,5 +1,6 @@
 #include "test_BinaryExp.cpp"
 #include "test_EuclideanAlg.cpp"
+#include "test_FibonacciNumbers.cpp"
 #include "test_LinearDiophantine.cpp"
 
 int main(int argc, char *argv[]) {
